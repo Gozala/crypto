@@ -1,7 +1,7 @@
 { "name": "crypto",
   "version": "0.0.1",
   "description": "JavaScript implementations of standard and secure cryptographic algorithms.",
-  "keywords": [],
+  "keywords": [ "crypto", "md5", "sha1" ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com>",
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
   "devDependencies": {
     "test": ">=0.0.10"
   },
-  "main": "./lib/crypto.js",
   "engines": {
     "node": "0.4.x",
     "teleport": ">=0.2.0"
