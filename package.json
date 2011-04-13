@@ -1,0 +1,34 @@
+{ "name": "crypto",
+  "version": "0.0.1",
+  "description": "JavaScript implementations of standard and secure cryptographic algorithms.",
+  "keywords": [],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gozala/crypto.git",
+    "web": "https://github.com/Gozala/crypto"
+  },
+  "bugs": {
+    "web": "http://github.com/Gozala/crypto/issues/"
+  },
+  "directories": {
+    "doc": "./docs",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "devDependencies": {
+    "test": ">=0.0.10"
+  },
+  "main": "./lib/crypto.js",
+  "engines": {
+    "node": "0.4.x",
+    "teleport": ">=0.2.0"
+  },
+  "scripts": {
+    "test": "node test/test-crypto.js"
+  },
+  "licenses": [ { "type" : "MPL 1.1/LGPL 2.1/GPL 2.0"
+    , "url" : "http://www.mozilla.org/MPL/"
+    }
+  ]
+}
