@@ -26,8 +26,10 @@
   "scripts": {
     "test": "node test/test-crypto.js"
   },
-  "licenses": [ { "type" : "MPL 1.1/LGPL 2.1/GPL 2.0"
-    , "url" : "http://www.mozilla.org/MPL/"
+  "licenses": [
+    {
+      "type" : "MPL 1.1/LGPL 2.1/GPL 2.0",
+      "url" : "http://www.mozilla.org/MPL/"
     }
   ]
 }
