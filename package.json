@@ -1,4 +1,6 @@
-{ "name": "crypto",
+{ 
+  "name": "crypto",
+  "id": "crypto",
   "version": "0.0.2",
   "description": "JavaScript implementations of standard and secure cryptographic algorithms.",
   "keywords": [ "crypto", "md5", "sha1" ],
@@ -25,11 +27,5 @@
   },
   "scripts": {
     "test": "node test/test-crypto.js"
-  },
-  "licenses": [
-    {
-      "type" : "MPL 1.1/LGPL 2.1/GPL 2.0",
-      "url" : "http://www.mozilla.org/MPL/"
-    }
-  ]
+  }
 }
