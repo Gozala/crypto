@@ -11,21 +11,19 @@
     "web": "https://github.com/Gozala/crypto"
   },
   "bugs": {
-    "web": "http://github.com/Gozala/crypto/issues/"
-  },
-  "directories": {
-    "doc": "./docs",
-    "lib": "./lib",
-    "test": "./test"
+    "url": "http://github.com/Gozala/crypto/issues/"
   },
   "devDependencies": {
     "test": ">=0.0.10"
   },
-  "engines": {
-    "node": ">=0.4.x",
-    "teleport": ">=0.2.0"
+  "directories": {
+    "lib": "./"
   },
   "scripts": {
     "test": "node test/test-crypto.js"
-  }
+  },
+  "licenses": [{
+    "type" : "BSD",
+    "url" : "http://pajhome.org.uk/site/legal.html#bsdlicense"
+  }]
 }
