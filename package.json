@@ -1,5 +1,5 @@
 { "name": "crypto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript implementations of standard and secure cryptographic algorithms.",
   "keywords": [ "crypto", "md5", "sha1" ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com>",
@@ -20,7 +20,7 @@
     "test": ">=0.0.10"
   },
   "engines": {
-    "node": "0.4.x",
+    "node": ">=0.4.x",
     "teleport": ">=0.2.0"
   },
   "scripts": {
