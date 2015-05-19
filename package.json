@@ -22,8 +22,5 @@
   "scripts": {
     "test": "node test/test-crypto.js"
   },
-  "licenses": [{
-    "type" : "BSD",
-    "url" : "http://pajhome.org.uk/site/legal.html#bsdlicense"
-  }]
+  "license": "BSD-3-Clause"
 }
